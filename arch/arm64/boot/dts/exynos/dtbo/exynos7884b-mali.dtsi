@@ -10,6 +10,7 @@
 */
 
 &mali {
+<<<<<<< HEAD
 <<<<<<< HEAD:arch/arm64/boot/dts/exynos/dtbo/exynos7884b-mali.dtsi
 	interactive_info = <450000 95 0>;
 =======
@@ -35,6 +36,8 @@
 =======
 	gpu_temp_throttling = <676000 545000 450000 343000 343000 343000>;
 =======
+=======
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 	interactive_info = <1001000 75 0>;
 	gpu_dvfs_table_size = <9 7>; /*<row col>*/
 	                /* clk     min max  down mif_min  lit_min big_max */
@@ -52,6 +55,9 @@
 	gpu_max_clock_limit = <1300000>;
 	gpu_temp_throttling_level_num = <6>;
 	gpu_temp_throttling = <845000 676000 545000 453000 343000 343000>;
+<<<<<<< HEAD
 >>>>>>> a093eca705... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>:arch/arm64/boot/dts/exynos/dtbo/exynos7884b-mali.dtsi
 >>>>>>> ba8fd864f... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>:arch/arm64/boot/dts/exynos/dtbo/exynos7904-mali.dtsi
+=======
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 };

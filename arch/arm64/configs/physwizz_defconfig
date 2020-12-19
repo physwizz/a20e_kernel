@@ -43,11 +43,15 @@ CONFIG_BUILDTIME_EXTABLE_SORT=y
 CONFIG_INIT_ENV_ARG_LIMIT=32
 CONFIG_CROSS_COMPILE=""
 # CONFIG_COMPILE_TEST is not set
+<<<<<<< HEAD
 <<<<<<< HEAD:arch/arm64/configs/physwizz_defconfig
 CONFIG_LOCALVERSION="-physwizz_v1.72"
 =======
 CONFIG_LOCALVERSION="-physwizz_3.55"
 >>>>>>> ba8fd864f... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>:arch/arm64/configs/physwizz-a30_defconfig
+=======
+CONFIG_LOCALVERSION="-physwizz_3.55"
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_LOCALVERSION_AUTO=y
 CONFIG_DEFAULT_HOSTNAME="(none)"
 CONFIG_SWAP=y
@@ -353,9 +357,15 @@ CONFIG_SOC_EXYNOS7885_ANDROID_VERSION_P=y
 # CONFIG_SOC_EXYNOS7885_ANDROID_VERSION_Q is not set
 # CONFIG_SOC_EXYNOS7885_ANDROID_VERSION_Q_MR is not set
 # CONFIG_SOC_EXYNOS7885_ANDROID_VERSION_P_MR is not set
+<<<<<<< HEAD
 # CONFIG_SOC_EXYNOS7884 is not set
 # CONFIG_SOC_EXYNOS7883 is not set
 CONFIG_SOC_EXYNOS7884A=y
+=======
+CONFIG_SOC_EXYNOS7884=y
+# CONFIG_SOC_EXYNOS7883 is not set
+# CONFIG_SOC_EXYNOS7884A is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_ARCH_EXYNOS7=y
 # CONFIG_SOC_EXYNOS8890 is not set
 # CONFIG_SOC_EXYNOS8895 is not set
@@ -363,11 +373,15 @@ CONFIG_ARCH_EXYNOS7=y
 # CONFIG_ARCH_EXYNOS8 is not set
 # CONFIG_ZONE_MOVABLE is not set
 
+<<<<<<< HEAD
 CONFIG_MACH_EXYNOS7885_A20_GLOBAL=y
 
 CONFIG_BUILD_ARM64_DT_OVERLAY=y
 
 
+=======
+#
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # Bus support
 #
 # CONFIG_PCI is not set
@@ -482,10 +496,18 @@ CONFIG_HPA=y
 # CONFIG_IDLE_PAGE_TRACKING is not set
 CONFIG_FRAME_VECTOR=y
 CONFIG_KSWAPD_CPU=0x3F
+<<<<<<< HEAD
 CONFIG_MMAP_READAROUND_LIMIT=16
 CONFIG_BALANCE_ANON_FILE_RECLAIM=y
 CONFIG_FAULT_AROUND_4KB=y
 # CONFIG_PAGE_BOOST is not set
+=======
+CONFIG_MMAP_READAROUND_LIMIT=0
+CONFIG_BALANCE_ANON_FILE_RECLAIM=y
+# CONFIG_FAULT_AROUND_4KB is not set
+CONFIG_PAGE_BOOST=y
+CONFIG_PAGE_BOOST_RECORDING=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_SECCOMP=y
 # CONFIG_XEN is not set
 CONFIG_FORCE_MAX_ZONEORDER=11
@@ -1036,7 +1058,11 @@ CONFIG_NET_SCH_FIFO=y
 # CONFIG_HSR is not set
 # CONFIG_NET_SWITCHDEV is not set
 # CONFIG_NET_L3_MASTER_DEV is not set
+<<<<<<< HEAD
 # CONFIG_KNOX_NCM is not set
+=======
+CONFIG_KNOX_NCM=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_RPS=y
 CONFIG_RFS_ACCEL=y
 CONFIG_XPS=y
@@ -1460,12 +1486,20 @@ CONFIG_DM_CRYPT=y
 # CONFIG_DM_DELAY is not set
 CONFIG_DM_UEVENT=y
 # CONFIG_DM_FLAKEY is not set
+<<<<<<< HEAD
 # CONFIG_DM_VERITYis not set
+=======
+# CONFIG_DM_VERITY is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_DM_VERITY_FEC=y
 # CONFIG_DM_SWITCH is not set
 # CONFIG_DM_LOG_WRITES is not set
 # CONFIG_DM_VERITY_AVB is not set
+<<<<<<< HEAD
 CONFIG_DM_ANDROID_VERITY_AT_MOST_ONCE_DEFAULT_ENABLED=y
+=======
+# CONFIG_DM_ANDROID_VERITY_AT_MOST_ONCE_DEFAULT_ENABLED is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_TARGET_CORE is not set
 CONFIG_NETDEVICES=y
 CONFIG_MII=y
@@ -1856,12 +1890,20 @@ CONFIG_TOUCHSCREEN_DUMP_MODE=y
 # CONFIG_TOUCHSCREEN_ZINITIX_ZT75XX_TCLM is not set
 # CONFIG_TOUCHSCREEN_ZINITIX_ZT75XX_WISDOM is not set
 # CONFIG_TOUCHSCREEN_SEC_TS is not set
+<<<<<<< HEAD
 # CONFIG_TOUCHSCREEN_SEC_TS_GLOVEMODE is not set
+=======
+CONFIG_TOUCHSCREEN_SEC_TS_GLOVEMODE=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_TOUCHSCREEN_SEC_INCELL_TS is not set
 # CONFIG_TOUCHSCREEN_SYNAPTICS_I2C_TD4X00 is not set
 # CONFIG_TOUCHSCREEN_SYNAPTICS_I2C_TD4X00_J2CORESPR is not set
 # CONFIG_TOUCHSCREEN_MELFAS_MMS438 is not set
+<<<<<<< HEAD
 # CONFIG_TOUCHSCREEN_MELFAS_MSS100 is not set
+=======
+CONFIG_TOUCHSCREEN_MELFAS_MSS100=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_TOUCHSCREEN_MELFAS_MSS100_A30KOR is not set
 # CONFIG_TOUCHSCREEN_FTS is not set
 # CONFIG_TOUCHSCREEN_FTS1BA90A is not set
@@ -1871,6 +1913,7 @@ CONFIG_TOUCHSCREEN_DUMP_MODE=y
 # CONFIG_TOUCHSCREEN_IST40XX is not set
 # CONFIG_TOUCHSCREEN_IST4050 is not set
 # CONFIG_TOUCHSCREEN_NT36xxx is not set
+<<<<<<< HEAD
 CONFIG_TOUCHSCREEN_HIMAX_COMMON=y
 # CONFIG_TOUCHSCREEN_HIMAX_ONCELL is not set
 CONFIG_TOUCHSCREEN_HIMAX_INCELL=y
@@ -1886,6 +1929,9 @@ CONFIG_TOUCHSCREEN_HIMAX_INSPECT=y
 # CONFIG_TOUCHSCREEN_HIMAX_I2C is not set
 # CONFIG_TOUCHSCREEN_HIMAX_SPI is not set
 # CONFIG_TOUCHSCREEN_HIMAX_INCELL_CORE is not set
+=======
+# CONFIG_TOUCHSCREEN_HIMAX_COMMON is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_INPUT_WACOM is not set
 # CONFIG_EPEN_WACOM_W9018 is not set
 # CONFIG_EPEN_WACOM_W9019 is not set
@@ -2571,7 +2617,14 @@ CONFIG_VIDEO_EXYNOS_SCALER=y
 CONFIG_VIDEO_EXYNOS_MFC=y
 CONFIG_EXYNOS_MFC_V11=y
 CONFIG_VIDEO_EXYNOS_SMFC=y
+<<<<<<< HEAD
 # CONFIG_VIDEO_EXYNOS_CAMREA_POSTPROCESS is not set
+=======
+CONFIG_VIDEO_EXYNOS_CAMREA_POSTPROCESS=y
+CONFIG_VIDEO_EXYNOS_CAMREA_POSTPROCESS_GDC=y
+# CONFIG_CAMERA_PP_GDC_V1_0_0_OBJ is not set
+CONFIG_CAMERA_PP_GDC_V1_1_0_OBJ=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_VIDEO_EXYNOS_FIMC_IS2=y
 CONFIG_EXYNOS_FIMC_IS=y
 CONFIG_FIMC_IS_V6_20_0=y
@@ -2596,6 +2649,7 @@ CONFIG_USE_CSI_DMAOUT_FEATURE=y
 CONFIG_CAMERA_CIS_SELECT=y
 # CONFIG_CAMERA_CIS_6B2_OBJ is not set
 # CONFIG_CAMERA_CIS_5E2_OBJ is not set
+<<<<<<< HEAD
 # CONFIG_CAMERA_CIS_5E9_OBJ is not set
 # CONFIG_CAMERA_CIS_5E3_OBJ is not set
 # CONFIG_CAMERA_CIS_4H5YC_OBJ is not set
@@ -2603,11 +2657,24 @@ CONFIG_CAMERA_CIS_SELECT=y
 CONFIG_CAMERA_CIS_4HA_OBJ=y
 # CONFIG_CAMERA_CIS_2P2_OBJ is not set
 # CONFIG_CAMERA_CIS_2P6_OBJ is not set
+=======
+CONFIG_CAMERA_CIS_5E9_OBJ=y
+# CONFIG_CAMERA_CIS_5E3_OBJ is not set
+# CONFIG_CAMERA_CIS_4H5YC_OBJ is not set
+# CONFIG_CAMERA_CIS_4H5_OBJ is not set
+# CONFIG_CAMERA_CIS_4HA_OBJ is not set
+# CONFIG_CAMERA_CIS_2P2_OBJ is not set
+CONFIG_CAMERA_CIS_2P6_OBJ=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_CAMERA_CIS_2P8_OBJ is not set
 # CONFIG_CAMERA_CIS_2X5_OBJ is not set
 # CONFIG_CAMERA_CIS_3P3_OBJ is not set
 # CONFIG_CAMERA_CIS_3L2_OBJ is not set
+<<<<<<< HEAD
 CONFIG_CAMERA_CIS_3L6_OBJ=y
+=======
+# CONFIG_CAMERA_CIS_3L6_OBJ is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_CAMERA_CIS_3H1_OBJ is not set
 # CONFIG_CAMERA_CIS_3H1_C3_OBJ is not set
 # CONFIG_CAMERA_CIS_4E6_OBJ is not set
@@ -2615,7 +2682,11 @@ CONFIG_CAMERA_CIS_3L6_OBJ=y
 # CONFIG_CAMERA_CIS_3M3_OBJ is not set
 # CONFIG_CAMERA_CIS_2L1_OBJ is not set
 # CONFIG_CAMERA_CIS_3P8_OBJ is not set
+<<<<<<< HEAD
 # CONFIG_CAMERA_CIS_3P8SP_OBJ is not set
+=======
+CONFIG_CAMERA_CIS_3P8SP_OBJ=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_CAMERA_CIS_2P7SX_OBJ is not set
 # CONFIG_CAMERA_CIS_2L2_OBJ is not set
 # CONFIG_CAMERA_CIS_IMX258_OBJ is not set
@@ -2627,11 +2698,19 @@ CONFIG_CAMERA_CIS_3L6_OBJ=y
 # CONFIG_CAMERA_CIS_IMX219_OBJ is not set
 # CONFIG_CAMERA_CIS_IMX241_OBJ is not set
 # CONFIG_CAMERA_CIS_SR259_OBJ is not set
+<<<<<<< HEAD
 CONFIG_CAMERA_CIS_SR556_OBJ=y
 # CONFIG_CAMERA_CIS_SR556B_OBJ is not set
 # CONFIG_CAMERA_CIS_SR846_OBJ is not set
 # CONFIG_CAMERA_CIS_IMX576_OBJ is not set
 # CONFIG_CAMERA_CIS_IMX471_OBJ is not set
+=======
+# CONFIG_CAMERA_CIS_SR556_OBJ is not set
+# CONFIG_CAMERA_CIS_SR556B_OBJ is not set
+# CONFIG_CAMERA_CIS_SR846_OBJ is not set
+# CONFIG_CAMERA_CIS_IMX576_OBJ is not set
+CONFIG_CAMERA_CIS_IMX471_OBJ=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_CAMERA_CIS_HI1631_OBJ is not set
 # CONFIG_CAMERA_CIS_GC5035_OBJ is not set
 # CONFIG_CAMERA_CIS_VIRTUAL_OBJ is not set
@@ -2642,10 +2721,17 @@ CONFIG_CAMERA_ACT_SELECT=y
 # CONFIG_CAMERA_ACT_DW9714_OBJ is not set
 # CONFIG_CAMERA_ACT_DW9804_OBJ is not set
 # CONFIG_CAMERA_ACT_DW9807_OBJ is not set
+<<<<<<< HEAD
 CONFIG_CAMERA_ACT_DW9808_OBJ=y
 # CONFIG_CAMERA_ACT_AK7372_OBJ is not set
 # CONFIG_CAMERA_ACT_ZC533_OBJ is not set
 # CONFIG_CAMERA_ACT_ZC535_OBJ is not set
+=======
+# CONFIG_CAMERA_ACT_DW9808_OBJ is not set
+# CONFIG_CAMERA_ACT_AK7372_OBJ is not set
+# CONFIG_CAMERA_ACT_ZC533_OBJ is not set
+CONFIG_CAMERA_ACT_ZC535_OBJ=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_CAMERA_ACT_DW9823_OBJ is not set
 CONFIG_CAMERA_FLASH_SELECT=y
 # CONFIG_CAMERA_FLASH_LM3560_OBJ is not set
@@ -2699,21 +2785,33 @@ CONFIG_FIMC_IS_DDK_DATA_LOAD=y
 # CONFIG_CAMERA_WXS_V00 is not set
 # CONFIG_CAMERA_ATS_V03 is not set
 # CONFIG_CAMERA_ATS_V04 is not set
+<<<<<<< HEAD
 # CONFIG_CAMERA_AAS_V30 is not set
+=======
+CONFIG_CAMERA_AAS_V30=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_CAMERA_AAS_V40 is not set
 # CONFIG_CAMERA_AAS_V20 is not set
 # CONFIG_CAMERA_AAS_V30C is not set
 # CONFIG_CAMERA_AAS_V30S is not set
 # CONFIG_CAMERA_AAS_V30J is not set
 # CONFIG_CAMERA_AAS_V10 is not set
+<<<<<<< HEAD
 CONFIG_CAMERA_AAS_V20E=y
+=======
+# CONFIG_CAMERA_AAS_V20E is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_CAMERA_AAS_V10E is not set
 # CONFIG_CAMERA_AAS_V10EKX is not set
 # CONFIG_CAMERA_XXS_V04S is not set
 # CONFIG_CAMERA_AAS_V07J is not set
 # CONFIG_CAMERA_MMS_V20 is not set
 # CONFIG_CAMERA_MMS_V10S is not set
+<<<<<<< HEAD
 # CONFIG_CAMERA_USE_OTP_DPC_DATA is not set
+=======
+CONFIG_CAMERA_USE_OTP_DPC_DATA=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_VIDEO_EXYNOS_FIMC_LEGACY is not set
 CONFIG_MEDIA_EXYNOS=y
 # CONFIG_SOC_CAMERA is not set
@@ -2914,6 +3012,7 @@ CONFIG_EXYNOS_DPP=y
 CONFIG_EXYNOS_MIPI_DSIM=y
 # CONFIG_EXYNOS_MIPI_DISPLAYPORT is not set
 CONFIG_EXYNOS_ZEBU_EMUL_DISP=y
+<<<<<<< HEAD
 # CONFIG_FB_WINDOW_UPDATE is not set
 # CONFIG_DECON_BLOCKING_MODE is not set
 CONFIG_DECON_EVENT_LOG=y
@@ -2922,15 +3021,35 @@ CONFIG_EXYNOS_DECON_LCD=y
 # CONFIG_EXYNOS_DECON_LCD_S6E3FA0 is not set
 CONFIG_EXYNOS_DECON_7885=y
 # CONFIG_EXYNOS_DOZE is not set
+=======
+CONFIG_FB_WINDOW_UPDATE=y
+# CONFIG_DECON_BLOCKING_MODE is not set
+CONFIG_DECON_EVENT_LOG=y
+CONFIG_DECON_HIBER=y
+CONFIG_EXYNOS_DECON_LCD=y
+# CONFIG_EXYNOS_DECON_LCD_S6E3FA0 is not set
+CONFIG_EXYNOS_DECON_7885=y
+CONFIG_EXYNOS_DOZE=y
+CONFIG_EXYNOS_SUPPORT_DOZE=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_EXYNOS_SUPPORT_FB_HANDOVER=y
 CONFIG_DPU_20=y
 # CONFIG_LCD_HMT is not set
 CONFIG_SUPPORT_MASK_LAYER=y
+<<<<<<< HEAD
 # CONFIG_LOGGING_BIGDATA_BUG is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E3FA3 is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E3FA7 is not set
 # CONFIG_DISPLAY_USE_INFO is not set
 # CONFIG_EXYNOS_DECON_MDNIE is not set
+=======
+CONFIG_LOGGING_BIGDATA_BUG=y
+# CONFIG_EXYNOS_DECON_LCD_S6E3FA3 is not set
+# CONFIG_EXYNOS_DECON_LCD_S6E3FA7 is not set
+CONFIG_DISPLAY_USE_INFO=y
+CONFIG_EXYNOS_DECON_MDNIE=y
+CONFIG_EXYNOS_DECON_MDNIE_LITE=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SUPPORT_POC_FLASH is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E3FA7_JACKPOT2 is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E3FA7_JACKPOT is not set
@@ -2945,13 +3064,21 @@ CONFIG_SUPPORT_MASK_LAYER=y
 # CONFIG_EXYNOS_DECON_LCD_HX8279D_GTA3XLLTE is not set
 # CONFIG_EXYNOS_DECON_LCD_HX83112A_M20 is not set
 # CONFIG_EXYNOS_DECON_LCD_EA8076_M30 is not set
+<<<<<<< HEAD
 # CONFIG_EXYNOS_DECON_LCD_EA8076_A30 is not set
+=======
+CONFIG_EXYNOS_DECON_LCD_EA8076_A30=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_EXYNOS_DECON_LCD_HX8279D_WISDOM is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E8FC0_A20 is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E8FC0_A40 is not set
 # CONFIG_EXYNOS_DECON_LCD_S6D7AT0B_A10 is not set
 # CONFIG_EXYNOS_DECON_LCD_HX83102D_A10E is not set
+<<<<<<< HEAD
 CONFIG_EXYNOS_DECON_LCD_HX83102D_A20E=y
+=======
+# CONFIG_EXYNOS_DECON_LCD_HX83102D_A20E is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_EXYNOS_DECON_LCD_S6D7AA0_XCOVER4S is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E8FC0_A30C is not set
 # CONFIG_EXYNOS_DECON_LCD_S6E8FC1_A30S is not set
@@ -3154,6 +3281,10 @@ CONFIG_SND_SOC_TFA9896=y
 # CONFIG_SND_SOC_WM8962 is not set
 # CONFIG_SND_SOC_WM8978 is not set
 # CONFIG_SND_SOC_TPA6130A2 is not set
+<<<<<<< HEAD
+=======
+CONFIG_PLATFORM_EXYNOS=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SND_SOC_DBMDX is not set
 # CONFIG_SND_SIMPLE_CARD is not set
 # CONFIG_SOUND_PRIME is not set
@@ -3910,7 +4041,11 @@ CONFIG_SYNC=y
 CONFIG_SW_SYNC=y
 CONFIG_SW_SYNC_USER=y
 CONFIG_ANDROID_INTF_ALARM_DEV=y
+<<<<<<< HEAD
 # CONFIG_SAMSUNG_FREECESS is not set
+=======
+CONFIG_SAMSUNG_FREECESS=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_ION=y
 # CONFIG_ION_TEST is not set
 # CONFIG_ION_DUMMY is not set
@@ -3952,7 +4087,10 @@ CONFIG_SEC_DEBUG_AVOID_UNNECESSARY_TRAP=y
 #
 CONFIG_SEC_PARAM=y
 CONFIG_CM_OFFSET=7340596
+<<<<<<< HEAD
 CONFIG_FMM_LOCK_OFFSET=7340680
+=======
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_SEC_EVENT_LOG=y
 CONFIG_SEC_BOOTSTAT=y
 CONFIG_ARGOS=y
@@ -3970,7 +4108,10 @@ CONFIG_SAMSUNG_PRODUCT_SHIP=y
 #
 CONFIG_SEC_AVC_LOG=y
 CONFIG_SEC_DEBUG_TSP_LOG=y
+<<<<<<< HEAD
 CONFIG_SEC_DEBUG_INIT_EXIT_PANIC=y
+=======
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_SEC_DEBUG_SOFTDOG_PWDT=y
 
 #
@@ -4426,7 +4567,11 @@ CONFIG_PM_S2MU106=y
 # CONFIG_WIRELESS_CHARGER_MFC is not set
 # CONFIG_QH_ALGORITHM is not set
 # CONFIG_ENABLE_100MA_CHARGING_BEFORE_USB_CONFIGURED is not set
+<<<<<<< HEAD
 CONFIG_ABNORMAL_BAT_THM_WA=y
+=======
+# CONFIG_ABNORMAL_BAT_THM_WA is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_S2MU004_MODE_CHANGE_BY_TOPOFF is not set
 # CONFIG_A10_FACTORY_MAX_SOC is not set
 # CONFIG_RESET_CONTROLLER is not set
@@ -4536,8 +4681,13 @@ CONFIG_SENSORS_FINGERPRINT=y
 # CONFIG_SENSORS_FINGERPRINT_32BITS_PLATFORM_ONLY is not set
 # CONFIG_SENSORS_ET320 is not set
 # CONFIG_SENSORS_ET510 is not set
+<<<<<<< HEAD
 CONFIG_SENSORS_ET5XX=y
 # CONFIG_SENSORS_GW32X is not set
+=======
+# CONFIG_SENSORS_ET5XX is not set
+CONFIG_SENSORS_GW32X=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SENSORS_ET7XX is not set
 # CONFIG_SENSORS_FINGERPRINT_DUALIZATION is not set
 # CONFIG_SENSORS_FP_LOCKSCREEN_MODE is not set
@@ -4586,18 +4736,29 @@ CONFIG_SENSORS_LSM6DSL_I2C=y
 # CONFIG_SENSORS_LIS2DS_SPI is not set
 # CONFIG_SENSORS_K2HH is not set
 CONFIG_SENSORS_YAS539=y
+<<<<<<< HEAD
 CONFIG_SENSORS_YAS539_A20E=y
 # CONFIG_SENSORS_GP2AP070S is not set
 CONFIG_SENSORS_GP2AP110S=y
 # CONFIG_SENSORS_STK3013 is not set
 # CONFIG_SENSORS_STK3X3X is not set
+=======
+# CONFIG_SENSORS_GP2AP070S is not set
+# CONFIG_SENSORS_GP2AP110S is not set
+# CONFIG_SENSORS_STK3013 is not set
+CONFIG_SENSORS_STK3X3X=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SENSORS_CM36658 is not set
 # CONFIG_SENSORS_CM36686 is not set
 # CONFIG_SENSORS_CM3323 is not set
 # CONFIG_SENSORS_VEML3328 is not set
 # CONFIG_SENSORS_CM36672P is not set
+<<<<<<< HEAD
 # CONFIG_SENSORS_TCS3701 is not set
 # CONFIG_SENSORS_TCS3701_A40 is not set
+=======
+CONFIG_SENSORS_TCS3701=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SENSORS_TMD3725 is not set
 # CONFIG_SENSORS_A96T3X6_2CH is not set
 # CONFIG_SENSORS_A96T3X6_A40 is not set
@@ -4611,10 +4772,17 @@ CONFIG_SENSORS_TC3XXK=y
 # CONFIG_SENSORS_TC3XXK_M20 is not set
 # CONFIG_SENSORS_TC3XXK_M30 is not set
 # CONFIG_SENSORS_TC3XXK_A40 is not set
+<<<<<<< HEAD
 # CONFIG_SENSORS_TC3XXK_A30 is not set
 # CONFIG_SENSORS_TC3XXK_A30_JPN is not set
 # CONFIG_SENSORS_TC3XXK_A20 is not set
 CONFIG_SENSORS_TC3XXK_A20E=y
+=======
+CONFIG_SENSORS_TC3XXK_A30=y
+# CONFIG_SENSORS_TC3XXK_A30_JPN is not set
+# CONFIG_SENSORS_TC3XXK_A20 is not set
+# CONFIG_SENSORS_TC3XXK_A20E is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SENSORS_TC3XXK_A10 is not set
 # CONFIG_SENSORS_TC3XXK_A10E is not set
 # CONFIG_SENSORS_TC3XXK_A10E_KOR is not set
@@ -4623,7 +4791,11 @@ CONFIG_SENSORS_TC3XXK_A20E=y
 # CONFIG_SENSORS_SX9360 is not set
 # CONFIG_SENSORS_SX9360_WIFI is not set
 # CONFIG_SENSORS_LPS22HB is not set
+<<<<<<< HEAD
 # CONFIG_SENSORS_LSM6DSL_SUPPORT_VDIS is not set
+=======
+CONFIG_SENSORS_LSM6DSL_SUPPORT_VDIS=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SENSORS_AK09918C is not set
 # CONFIG_GPS_BCMxxxxx is not set
 # CONFIG_GPS_BCM4752 is not set
@@ -4632,10 +4804,18 @@ CONFIG_SENSORS_TC3XXK_A20E=y
 # CONFIG_GPS_BCM47531 is not set
 # CONFIG_GPS_BCM4773 is not set
 # CONFIG_MOTOR_ZH915 is not set
+<<<<<<< HEAD
 CONFIG_SEC_VIB=y
 # CONFIG_MOTOR_S2MU004 is not set
 # CONFIG_MOTOR_S2MU106 is not set
 # CONFIG_ISA1000 is not set
+=======
+# CONFIG_SEC_VIB is not set
+# CONFIG_MOTOR_S2MU004 is not set
+CONFIG_MOTOR_S2MU106=y
+# CONFIG_ISA1000 is not set
+# CONFIG_MOTOR_VOLTAGE_3P3 is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_FIVE_TEE_DRIVER=y
 CONFIG_FIVE_USE_TZDEV=y
 # CONFIG_TEE_DRIVER_DEBUG is not set
@@ -5107,6 +5287,10 @@ CONFIG_SECURITY_SELINUX_CHECKREQPROT_VALUE=0
 # CONFIG_INTEGRITY_SIGNATURE is not set
 # CONFIG_INTEGRITY_ASYMMETRIC_KEYS is not set
 # CONFIG_INTEGRITY_AUDIT is not set
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_IMA is not set
 # CONFIG_EVM is not set
 CONFIG_TZ_ICCC=y
@@ -5128,7 +5312,11 @@ CONFIG_GAF_V6=y
 CONFIG_DEFAULT_SECURITY_SELINUX=y
 # CONFIG_DEFAULT_SECURITY_DAC is not set
 CONFIG_DEFAULT_SECURITY="selinux"
+<<<<<<< HEAD
 # CONFIG_SDP_ENHANCED is not set
+=======
+CONFIG_SDP_ENHANCED=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_CRYPTO=y
 
 #
@@ -5245,7 +5433,11 @@ CONFIG_CRYPTO_LZO=y
 # CONFIG_CRYPTO_842 is not set
 CONFIG_CRYPTO_LZ4=y
 # CONFIG_CRYPTO_LZ4HC is not set
+<<<<<<< HEAD
 # CONFIG_CRYPTO_ZSTD is not set
+=======
+CONFIG_CRYPTO_ZSTD=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 
 #
 # Random Number Generation
@@ -5267,7 +5459,13 @@ CONFIG_CRYPTO_HW=y
 # CONFIG_CRYPTO_DEV_CCP is not set
 CONFIG_EXYNOS_SMU=y
 CONFIG_EXYNOS_FMP=y
+<<<<<<< HEAD
 # CONFIG_EXYNOS_FMP_FIPS is not set
+=======
+CONFIG_EXYNOS_FMP_FIPS=y
+CONFIG_NODE_FOR_SELFTEST_FAIL=y
+# CONFIG_PANIC_FOR_SELFTEST_FAIL is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_ASYMMETRIC_KEY_TYPE=y
 CONFIG_ASYMMETRIC_PUBLIC_KEY_SUBTYPE=y
 CONFIG_PUBLIC_KEY_ALGO_RSA=y
@@ -5315,6 +5513,10 @@ CONFIG_CRC32_SLICEBY8=y
 # CONFIG_CRC7 is not set
 CONFIG_LIBCRC32C=y
 # CONFIG_CRC8 is not set
+<<<<<<< HEAD
+=======
+CONFIG_XXHASH=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_AUDIT_GENERIC=y
 CONFIG_AUDIT_ARCH_COMPAT_GENERIC=y
 CONFIG_AUDIT_COMPAT_GENERIC=y
@@ -5325,6 +5527,11 @@ CONFIG_LZO_COMPRESS=y
 CONFIG_LZO_DECOMPRESS=y
 CONFIG_LZ4_COMPRESS=y
 CONFIG_LZ4_DECOMPRESS=y
+<<<<<<< HEAD
+=======
+CONFIG_ZSTD_COMPRESS=y
+CONFIG_ZSTD_DECOMPRESS=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_XZ_DEC=y
 CONFIG_XZ_DEC_X86=y
 CONFIG_XZ_DEC_POWERPC=y

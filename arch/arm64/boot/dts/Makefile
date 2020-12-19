@@ -30,6 +30,9 @@ dtb-$(CONFIG_MACH_EXYNOS7885_A20_GLOBAL) := \
 =======
     exynos/dtbo/exynos7884b-mali.dtsi
 >>>>>>> fd71daf145... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
+<<<<<<< HEAD
+>>>>>>> a093eca705... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
+=======
 >>>>>>> a093eca705... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 
 dtbs: $(addprefix $(obj)/, $(DTB_LIST))
