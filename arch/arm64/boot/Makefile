@@ -16,7 +16,11 @@
 
 include $(srctree)/arch/arm64/boot/dts/Makefile
 
+<<<<<<< HEAD
 targets := Image Image.gz dtbo.img
+=======
+targets := Image Image.bz2 Image.gz Image.lz4 Image.lzma Image.lzo dtbo.img
+>>>>>>> fd71daf145... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 
 DTB_NAMES := $(subst $\",,$(CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES))
 ifneq ($(DTB_NAMES),)

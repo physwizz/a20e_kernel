@@ -10,7 +10,12 @@
 */
 
 &mali {
+<<<<<<< HEAD:arch/arm64/boot/dts/exynos/dtbo/exynos7884b-mali.dtsi
 	interactive_info = <450000 95 0>;
+=======
+<<<<<<< HEAD:arch/arm64/boot/dts/exynos/dtbo/exynos7904-mali.dtsi
+	interactive_info = <676000 95 0>;
+>>>>>>> ba8fd864f... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>:arch/arm64/boot/dts/exynos/dtbo/exynos7904-mali.dtsi
 	gpu_dvfs_table_size = <9 7>; /*<row col>*/
 	                /* clk     min max  down mif_min  lit_min big_max */
 	gpu_dvfs_table = < 1300000 98  100  1    1794000  1586000 0
@@ -25,5 +30,28 @@
 	gpu_max_clock = <676000>;
 	gpu_max_clock_limit = <676000>;
 	gpu_temp_throttling_level_num = <6>;
+<<<<<<< HEAD:arch/arm64/boot/dts/exynos/dtbo/exynos7884b-mali.dtsi
 	gpu_temp_throttling = <545000 453000 343000 343000 343000 343000>;
+=======
+	gpu_temp_throttling = <676000 545000 450000 343000 343000 343000>;
+=======
+	interactive_info = <1001000 75 0>;
+	gpu_dvfs_table_size = <9 7>; /*<row col>*/
+	                /* clk     min max  down mif_min  lit_min big_max */
+	gpu_dvfs_table = < 1300000 98  100  1    1794000   0 0
+	                   1200000 90   95  1    1794000   0 0
+	                   1100000 90   95  1    1794000   0 0
+	                   1001000 90   95  1    1794000   0 0
+	                    845000 90   95  1    1352000   0 0
+	                    676000 90   95  1    1352000   0 0
+	                    545000 90   95  1     676000   0 0
+	                    450000 85   95  1     546000   0 0
+	                    343000 70   90  1     420000   0 0 >;
+	gpu_min_clock_limit = <343000>;
+	gpu_max_clock = <1300000>;
+	gpu_max_clock_limit = <1300000>;
+	gpu_temp_throttling_level_num = <6>;
+	gpu_temp_throttling = <845000 676000 545000 453000 343000 343000>;
+>>>>>>> a093eca705... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>:arch/arm64/boot/dts/exynos/dtbo/exynos7884b-mali.dtsi
+>>>>>>> ba8fd864f... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>:arch/arm64/boot/dts/exynos/dtbo/exynos7904-mali.dtsi
 };
