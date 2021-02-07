@@ -381,7 +381,20 @@ CONFIG_BUILD_ARM64_DT_OVERLAY=y
 
 =======
 #
+<<<<<<< HEAD
 >>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
+=======
+<<<<<<< HEAD
+=======
+CONFIG_MACH_EXYNOS7885_A20_GLOBAL=y
+
+CONFIG_BUILD_ARM64_DT_OVERLAY=y
+
+
+
+
+>>>>>>> 7eebe07f17... Update dtbo building
+>>>>>>> 44bbab0eb... Update dtbo building
 # Bus support
 #
 # CONFIG_PCI is not set
