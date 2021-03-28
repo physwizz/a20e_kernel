@@ -541,11 +541,10 @@ static int config_usb_cfg_link(
 	struct usb_function *f;
 #ifdef CONFIG_USB_ANDROID_SAMSUNG_COMPOSITE
 	static u8      ethaddr[ETH_ALEN]={0,};
-	int i;
 	char *src;
 	struct gadget_strings *gs;
 #endif
-
+	int i;
 #ifdef CONFIG_USB_CONFIGFS_UEVENT
 	struct usb_configuration	*c;
 	struct usb_function *tmp;
